@@ -135,12 +135,10 @@ format:
 
 ## Example
 
-See the [`example/`](example/) directory for a working demo. To render it:
+- QMD file: [example_simple.qmd](assets/example_simple.qmd)
+- Rendered HMTL: [example_simple.html](https://github.com/rodrigo-j-goncalves/quarto-extensions/progressvg/example_simple.html)
 
-```
-cd example
-quarto render example.qmd
-```
+
 
 <br><br><br>
 
