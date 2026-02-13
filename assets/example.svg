@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="54.318546mm"
+   height="49.480297mm"
+   viewBox="0 0 54.318546 49.480297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="example.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.3786088"
+     inkscape:cx="38.467864"
+     inkscape:cy="89.75835"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="1920"
+     inkscape:window-y="4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="my first layer"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-35.323475,-49.409307)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;marker-start:url(#TriangleStart);marker-end:url(#TriangleStart);stop-color:#000000"
+       d="m 36.862318,51.184841 v 46.16592 h 51.00417"
+       id="path249"
+       inkscape:label="axes" />
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:0.499999;stop-color:#000000"
+       d="M 37.752305,96.635042 C 43.504916,95.912514 48.585931,92.715791 53.945171,90.716243 61.36749,86.529591 69.895121,82.32286 73.429379,74.025584 75.908225,68.5298 77.031243,62.50655 77.91923,56.581458 l 0.02769,-0.59816"
+       id="path1096"
+       inkscape:label="line_exponential" />
+    <path
+       style="display:inline;fill:none;stroke:#0000ff;stroke-width:0.499999;stop-color:#000000"
+       d="M 37.075887,97.019347 C 48.011649,97.389955 51.980792,85.374928 58.469966,78.542763 65.515198,71.125149 77.58921,67.271433 88.443286,67.924653"
+       id="path1098"
+       sodipodi:nodetypes="csc"
+       inkscape:label="line_logistic" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';display:inline;fill:none;stroke:#0000ff;stroke-width:0.499999;stop-color:#000000"
+       x="46.016788"
+       y="59.186787"
+       id="text1358"
+       inkscape:label="text_logistic"><tspan
+         sodipodi:role="line"
+         id="tspan1356"
+         style="font-weight:bold;fill:#0000ff;stroke:none;stroke-width:0.5"
+         x="46.016788"
+         y="59.186787">Logistic</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';display:inline;fill:none;stroke:#0000ff;stroke-width:0.499999;stop-color:#000000"
+       x="41.802402"
+       y="66.952774"
+       id="text1362"
+       inkscape:label="text_exponential"><tspan
+         sodipodi:role="line"
+         id="tspan1360"
+         style="font-weight:bold;fill:#ff0000;stroke:none;stroke-width:0.5"
+         x="41.802402"
+         y="66.952774">Exponential</tspan></text>
+  </g>
+</svg>
