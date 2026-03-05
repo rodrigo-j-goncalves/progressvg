@@ -1,0 +1,24 @@
+$schema: https://m.canouil.dev/quarto-wizard/assets/schema/v1/extension-schema.json
+
+attributes:
+  progressvg:
+    file:
+      type: string
+      required: true
+      description: Path to the SVG file to control.
+      completion:
+        type: file
+        extensions: [.svg]
+    element:
+      type: string
+      required: true
+      description: SVG element id or Inkscape label to show or hide.
+    action:
+      type: string
+      default: show
+      enum: [show, hide]
+      description: Whether the target element should be shown or hidden.
+
+classes:
+  progressvg:
+    description: Wrapper div that registers progressive SVG visibility changes.
