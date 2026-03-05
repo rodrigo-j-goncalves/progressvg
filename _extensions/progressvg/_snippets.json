@@ -1,6 +1,6 @@
 {
   "Show SVG element": {
-    "prefix": "progressvg-show",
+    "prefix": "show",
     "body": [
       "::: {.progressvg file=\"${1:diagram.svg}\" element=\"${2:axes}\"}",
       ":::"
@@ -8,7 +8,7 @@
     "description": "Insert a progressvg trigger that shows an SVG element."
   },
   "Hide SVG element": {
-    "prefix": "progressvg-hide",
+    "prefix": "hide",
     "body": [
       "::: {.progressvg file=\"${1:diagram.svg}\" element=\"${2:old_data}\" action=\"hide\"}",
       ":::"
