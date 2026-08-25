@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Except these
+!.gitignore
+!_extensions/
+!_extensions/**
+!assets/
+!assets/**
+!README.md
+!LICENSE
+!example.qmd

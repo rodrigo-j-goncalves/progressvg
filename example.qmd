@@ -1,0 +1,100 @@
+---
+title: "ProgresSVG"
+subtitle: "An extension for Quarto@revealjs"
+author: "Rodrigo J. Gonçalves"
+format:
+  revealjs:
+    theme: default
+filters:
+  - progressvg
+---
+
+## Progressive SVG
+
+This extension is intended for Quarto@revealjs, to progressively reveal (or hide) SVG objects.
+
+1. Create a SVG file (I created [this](assets/inkscape-objects.png) using [Inkscape](https://inkscape.org/))
+2. Give each object a name ([like this](assets/inkscape-objects_naming.png))
+3. Adjust canvas size to fit your objects!! ([like this](assets/inkscape-objects_adjustCanvas.png))
+
+To **show** the element `axes` from the `example.svg` file:
+
+````markdown
+::: {.progressvg file="example.svg" element="axes"}
+:::
+````
+
+<br>
+
+To **hide** the element `axes` from the `example.svg` file:
+
+````markdown
+::: {.progressvg file="example.svg" element="axes" action="hide"}
+:::
+````
+
+## Let's try that code (show and then hide `axes`)
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="axes"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="axes" action="hide"}
+:::
+
+
+_________________________________________________
+## Now let's show (and then hide) all elements
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="axes"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="line_exponential"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="text_exponential"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="line_logistic"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="text_logistic"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="text_exponential" action="hide"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="line_exponential" action="hide"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="text_logistic" action="hide"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="line_logistic" action="hide"}
+:::
+
+. . .
+
+::: {.progressvg file="assets/example.svg" element="axes" action="hide"}
+:::
